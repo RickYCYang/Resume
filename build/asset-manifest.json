@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e797d3dd.chunk.css",
+    "main.js": "/static/js/main.fa477c60.chunk.js",
+    "main.js.map": "/static/js/main.fa477c60.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.da0eee7c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.da0eee7c.js.map",
+    "static/css/2.51884899.chunk.css": "/static/css/2.51884899.chunk.css",
+    "static/js/2.43a4f186.chunk.js": "/static/js/2.43a4f186.chunk.js",
+    "static/js/2.43a4f186.chunk.js.map": "/static/js/2.43a4f186.chunk.js.map",
+    "static/js/3.4b3c37e2.chunk.js": "/static/js/3.4b3c37e2.chunk.js",
+    "static/js/3.4b3c37e2.chunk.js.map": "/static/js/3.4b3c37e2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.51884899.chunk.css.map": "/static/css/2.51884899.chunk.css.map",
+    "static/css/main.e797d3dd.chunk.css.map": "/static/css/main.e797d3dd.chunk.css.map",
+    "static/js/2.43a4f186.chunk.js.LICENSE.txt": "/static/js/2.43a4f186.chunk.js.LICENSE.txt",
+    "static/media/chiao_tung_logo.87fa1477.png": "/static/media/chiao_tung_logo.87fa1477.png",
+    "static/media/itri_logo.787ffd4d.png": "/static/media/itri_logo.787ffd4d.png",
+    "static/media/App.scss": "/static/media/self-photo.e3bfedcc.jpg",
+    "static/media/tamkang_logo.a6910ade.png": "/static/media/tamkang_logo.a6910ade.png",
+    "static/media/tsmc_logo.3f9f14be.png": "/static/media/tsmc_logo.3f9f14be.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da0eee7c.js",
+    "static/css/2.51884899.chunk.css",
+    "static/js/2.43a4f186.chunk.js",
+    "static/css/main.e797d3dd.chunk.css",
+    "static/js/main.fa477c60.chunk.js"
+  ]
+}

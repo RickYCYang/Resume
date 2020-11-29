@@ -1,0 +1,298 @@
+@import '~@material/react-card/dist/card.css';
+@import '~@material/react-material-icon/dist/material-icon.css';
+
+$title-color: #696969;
+$theme-color: #009688;
+
+
+body{
+  background-color: #E8E8E8;
+}
+
+.mdc-card{
+  box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.material-icons {
+  color: $theme-color;
+  font-size: 20px;
+  margin-right: 10px;
+};
+
+.material-icons-title {
+  color: $theme-color;
+  font-size: 30px;
+  margin-right: 10px;
+};
+
+.container{
+  margin: 0 auto;
+  margin-top: 10px;
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+
+  .leftBar{
+    align-items: center;
+    flex: 1;
+    flex-shrink: 0;
+    padding: 0 10px;
+
+    .separate_line{
+      border: 1px solid $theme-color;
+      border-radius: 5px;
+      width: 85%;
+      margin: 0 auto;
+    }
+
+    .photoName{
+      padding: 10px;
+      display: flex;
+      background-image: url("./images/photo-background.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+
+      h3{
+        margin-bottom: 0;
+      }
+      h4{
+        margin-top: 5px;
+      }
+      #name{
+        margin-left: 20px;
+      }
+
+      #photo{
+        width: 150px;
+        height: 150px;
+        border-color: $theme-color;
+        border-style: solid;
+        background-image: url("./images/self-photo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+      }
+    }//photoName
+
+    .left_bar_block{
+      display: flex;
+      width: 100%;
+      margin: 0;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      padding-top: 15px;
+
+
+      .block_title{
+        color: $title-color;
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 15px;
+        vertical-align: middle;
+        i{
+          vertical-align: middle;
+          font-size: 30px;
+        }
+      }
+
+      ul{
+        margin: 0;
+        margin-top: 5px;
+        width: 95%;
+      }
+  
+      li{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        font-size: 14px;
+        max-width: 90%;
+      }
+
+      .horizontal_li{
+        @extend li;
+        flex-direction: row;
+      }
+      
+
+      .list_item{
+        color: $title-color;
+        vertical-align: middle;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 25px;
+
+        i{
+          vertical-align:middle;
+          font-size: 10px;
+        }
+      }
+
+      .list_detail{
+        
+        font-size: 14px;
+        margin: 0;
+        max-width: 90%;
+        line-height: 20px;
+      }
+
+      .horizontal_list_detail{
+        @extend .list_detail;
+        margin-left: 10px;
+        vertical-align: middle;
+      }
+
+    }//left_bar_block
+
+    .left_bar_block_last{
+      padding-bottom: 30px;
+    }
+
+    #language{
+      height: 200px;
+      width: 100%;
+      margin: 0;
+    }
+  }
+
+  .content{
+    flex: 2;
+    flex-shrink: 0;
+    margin-left: 0;
+    align-items: flex-start;
+    padding: 0 5px;
+  
+    .separate_line{
+      border: 1px solid $theme-color;
+      border-radius: 5px;
+      width: 95%;
+      margin: 0 auto;
+    }
+
+    .content_card{
+      margin-bottom: 10px;
+
+      .content_block{
+        display: flex;
+        width: 100%;
+        margin: 0;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-top: 15px;
+
+        .block_title{
+          font-size: 25px;
+          color: $title-color;
+          font-weight: bold;
+          padding-left: 15px;
+          vertical-align: middle;
+          margin-bottom: 8px;
+          i{
+            vertical-align: middle;
+            font-size: 30px;
+          }
+        }
+
+        .content_sub_block{
+          max-width: 100%;
+          padding: 20px 30px 10px 30px;
+          margin: 0;
+
+          .block_sub_title{
+            font-size: 20px;
+            color: $title-color;
+            font-weight: bold;
+            padding-left: 15px;
+            vertical-align: middle;
+            i{
+              vertical-align: middle;
+              font-size: 30px;
+            }
+            img{
+              max-width: 40px;
+              height: auto;
+              vertical-align: middle;
+              margin-right: 10px;
+            }
+          }//block_sub_title
+
+          .block_sub_title2{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding-left: 65px;
+            margin-bottom: 10px;
+
+            .theme_item{
+              color: $theme-color;
+              font-weight: bold;
+            }
+
+            #current{
+              background-color: $theme-color;
+              color: white;
+              padding: 3px;
+              border-radius: 15%;
+            }
+          }//block_sub_title2
+
+          .block_detail{
+            padding-left: 65px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            //color: $title-color;
+
+            .textHightlight{
+              text-decoration: underline;
+            }
+          }
+        }//content_sub_block
+
+        #intro-detail{
+          margin: 0 40px 20px 40px ;
+          line-height: 20px;
+          max-width: 100%;
+        }
+      }//content_block
+    }//content_card
+  } //content
+}
+
+.footer{
+  color: white;
+  height: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  background-color: $theme-color!important;
+  margin-top: 16px!important;
+  text-align: center!important;
+  padding: 0.01em 16px;
+}
+
+@media(max-width: 800px){
+  .container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftBar{
+    width: 100%;
+  }
+
+  .content{
+    width: 100%;
+    margin-top: 10px;
+  }
+}
