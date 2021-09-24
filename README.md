@@ -1,7 +1,8 @@
+# Practice for Tailwind
 ## Github Page
 https://rickycyang.github.io/Resume/
 
-## Practice for Tailwind
+
 
 # Getting Started with Create React App
 
