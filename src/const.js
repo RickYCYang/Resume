@@ -24,7 +24,7 @@ export const education = {
 };
 
 export const briefIntro = `
-In TSMC, my role is to support system service to supply chain planning organization for decision making like capacity allocation, customer demand analysis, and etc.
+While working in TSMC, my role is to support system service to supply chain planning organization for decision making like capacity allocation, customer demand analysis, and etc.
 Asides from system development, I've also been trained for project management, including coordination, requirements clarification, schedule management, and etc.
 I'm looking for a new opportunity as a frontend developer, appreciate for your reading.
 `;

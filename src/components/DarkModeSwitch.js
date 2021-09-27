@@ -14,9 +14,9 @@ const DarkModeSwitch = () => {
 
   return (
     <div className="flex items-center justify-end mb-3 text-right">
-      <div className="mr-3 text-gray-700 dark:text-white font-medium">
+      <span className="mr-3 text-gray-700 dark:text-white font-bold">
         Dark Mode
-      </div>
+      </span>
       <label htmlFor="toggleB" className="flex items-center cursor-pointer">
         <div className="relative">
           <input
